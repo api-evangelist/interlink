@@ -1,0 +1,14 @@
+name: Interlink
+description: A virtual kubelet implementation that enables cross-cluster communication
+  and resource sharing in Kubernetes, allowing pods in one cluster to access services
+  in another cluster as if they were local.
+url: https://github.com/liqotech/liqo
+tags:
+- Kubernetes
+- Multi-Cluster
+- Networking
+- Service Mesh
+created: '2025'
+modified: '2025'
+apis: []
+common: []
