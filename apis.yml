@@ -1,14 +1,26 @@
+aid: interlink
 name: Interlink
-description: A virtual kubelet implementation that enables cross-cluster communication
-  and resource sharing in Kubernetes, allowing pods in one cluster to access services
-  in another cluster as if they were local.
-url: https://github.com/liqotech/liqo
+description: >-
+  Interlink is a virtual kubelet implementation that enables cross-cluster
+  communication and resource sharing in Kubernetes, allowing pods in one cluster
+  to access services in another cluster as if they were local. It provides
+  multi-cluster networking and service mesh capabilities.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Kubernetes
-- Multi-Cluster
-- Networking
-- Service Mesh
-created: '2025'
-modified: '2025'
+  - Kubernetes
+  - Multi-Cluster
+  - Networking
+  - Service Mesh
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/interlink/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+common:
+  - type: Website
+    url: https://github.com/liqotech/liqo
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
